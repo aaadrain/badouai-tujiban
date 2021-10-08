@@ -15,7 +15,7 @@ class TorchModel(nn.Module):
 
     def __init__(self, vocab, sentence_length, input_dim):
         super(TorchModel, self).__init__()
-        self.embedding = nn.Embedding(len(vocab) +1 , input_dim)  # embedding 初始化实例  # todo 为何还要加一
+        self.embedding = nn.Embedding(len(vocab) +1 , input_dim)  # embedding 初始化实例  # 为何还要加一  因为是从1开始 len是长度值。
         self.layer = nn.Linear(input_dim, input_dim)
         self.avepool = nn.AvgPool1d(sentence_length)
         self.classify = nn.Linear(input_dim, 1)
@@ -27,8 +27,8 @@ class TorchModel(nn.Module):
         x = self.embedding(x)
         x = self.layer(x)
         x = self.dropout(x)
-        x = self.activation(x)
-        x = self.avepool(x.transpose(1, 2)).squeeze()      #  todo 这个是为啥要这样?
+        x = self.activation(x)  #torch.Size([20, 6, 20])  (batch_size, senten_len, char_dim
+        x = self.avepool(x.transpose(1, 2)).squeeze()# 这个是为啥要这样? #torch.Size([20, 20])( batch_size,char_dim) 需要满足维度
         x = self.classify(x)
         y_pred = self.activation(x)
         if y is not None:
@@ -79,9 +79,9 @@ def build_dataset(sample_length, vocab, sentence_length):
 def main():
     train_sample = 1000
     sentenct_length = 6
-    batch_size = 20
+    batch_size = 10
     epoch_num = 20
-    char_dim = 20
+    char_dim = 11
     lr = 0.001
     vocab = build_vocab()
     model = build_model(vocab, sentenct_length, char_dim)
@@ -97,7 +97,7 @@ def main():
             loss.backward()
             optimizer.step()
             watch_loss.append(loss.item())
-        print('第 %s 轮  loss:%s' % (epoch, np.mean(watch_loss)))
+        print('第 %s 轮  loss:%s' % (epoch+1, np.mean(watch_loss)))
         acc = evalute(model, vocab, sentenct_length)
         log.append([acc, np.mean(watch_loss)])
     plt.plot(range(len(log)), [l[0] for l in log])  # acc
