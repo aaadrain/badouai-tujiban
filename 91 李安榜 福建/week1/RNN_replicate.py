@@ -29,6 +29,7 @@ class DiyRnn():
         h_t = np.zeros((self.hidden_size))
         output = []
         for xi in x:
+            print('xi',xi,'xi.T',xi.T)
             ux = np.dot(self.W_ih, xi)
             wh = np.dot(self.W_hh, h_t)
             h_t = np.tanh(ux + wh)
