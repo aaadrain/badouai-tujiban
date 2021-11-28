@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8ebe8a9-8d82-4f26-b635-c3dbc078f037" name="Default Changelist" comment="add linear_replicate and RNN_replicate">
-      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week1/RNN_replicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week1/avepool_replicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week1/linear_replicate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/badouai-tujiban.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/badouai-tujiban.iml" afterDir="false" />
+    <list default="true" id="d8ebe8a9-8d82-4f26-b635-c3dbc078f037" name="Default Changelist" comment="add cross_entropy_replicate.py 复现交叉熵计算">
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week1/BP_nn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week3/forword_segmentation_method1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week3/forword_segmentation_method2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week6/ngram_language_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week6/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week6/sentence_correction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week6/tongyin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91 李安榜 福建/week6/财经.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91 李安榜 福建/week1/work.py" beforeDir="false" afterPath="$PROJECT_DIR$/91 李安榜 福建/week1/work.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91 李安榜 福建/week1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/91 李安榜 福建/week1/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1ydFoZQEcUZstMcGOg3opXLZS5R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,10 +46,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/91 李安榜 福建/week6" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.RNN_replicate">
-    <configuration name="RNN_replicate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\badouai-tujiban\91 李安榜 福建\week6" />
+      <recent name="C:\badouai-tujiban\91 李安榜 福建\week3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.sentence_correction">
+    <configuration name="forword_segmentation_method1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="badouai-tujiban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,12 +64,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week1/RNN_replicate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week3/forword_segmentation_method1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -58,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="avepool_replicate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="forword_segmentation_method2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="badouai-tujiban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,12 +86,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week1/avepool_replicate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week3/forword_segmentation_method2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="linear_replicate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ngram_language_model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="badouai-tujiban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +108,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week1" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="D:/八斗人工智能-ai大厂冲击班/第六周/PPT/week6 语言模型和预训练/上午/ngram" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week1/linear_replicate.py" />
+      <option name="SCRIPT_NAME" value="D:/八斗人工智能-ai大厂冲击班/第六周/PPT/week6 语言模型和预训练/上午/ngram/ngram_language_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ngram_language_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="badouai-tujiban" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,12 +130,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week1/work.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week6/ngram_language_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sentence_correction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="badouai-tujiban" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/91 李安榜 福建/week6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/91 李安榜 福建/week6/sentence_correction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,10 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RNN_replicate" />
-        <item itemvalue="Python.avepool_replicate" />
-        <item itemvalue="Python.work" />
-        <item itemvalue="Python.linear_replicate" />
+        <item itemvalue="Python.sentence_correction" />
+        <item itemvalue="Python.ngram_language_model" />
+        <item itemvalue="Python.ngram_language_model (1)" />
+        <item itemvalue="Python.forword_segmentation_method2" />
+        <item itemvalue="Python.forword_segmentation_method1" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +193,21 @@
       <workItem from="1633272959168" duration="4755000" />
       <workItem from="1633437760761" duration="1967000" />
       <workItem from="1633521551172" duration="599000" />
-      <workItem from="1633704410364" duration="2265000" />
+      <workItem from="1633704410364" duration="5470000" />
+      <workItem from="1633873679714" duration="487000" />
+      <workItem from="1633874185504" duration="5082000" />
+      <workItem from="1633955974965" duration="457000" />
+      <workItem from="1634133527295" duration="613000" />
+      <workItem from="1634559574291" duration="2972000" />
+      <workItem from="1636977642335" duration="764000" />
+      <workItem from="1637153869078" duration="10000" />
+      <workItem from="1637153888980" duration="1284000" />
+      <workItem from="1637241534403" duration="4191000" />
+      <workItem from="1637414029431" duration="4317000" />
+      <workItem from="1637583129691" duration="599000" />
+      <workItem from="1637843217906" duration="599000" />
+      <workItem from="1637931997892" duration="1819000" />
+      <workItem from="1638002616573" duration="13023000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1632573853821</created>
@@ -166,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1632582281801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add linear_replicate and RNN_replicate">
+      <created>1633706690707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633706690707</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add cross_entropy_replicate.py 复现交叉熵计算">
+      <created>1633879504767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633879504767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,12 +259,31 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="add code" />
     <MESSAGE value="add linear_replicate and RNN_replicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="add linear_replicate and RNN_replicate" />
+    <MESSAGE value="add cross_entropy_replicate.py 复现交叉熵计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cross_entropy_replicate.py 复现交叉熵计算" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/91 李安榜 福建/week6/ngram_language_model.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/badouai_tujiban$linear_replicate.coverage" NAME="linear_replicate Coverage Results" MODIFIED="1632843695808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$ngram_language_model__1_.coverage" NAME="ngram_language_model (1) Coverage Results" MODIFIED="1638018739728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/八斗人工智能-ai大厂冲击班/第六周/PPT/week6 语言模型和预训练/上午/ngram" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$forword_segmentation_method1.coverage" NAME="forword_segmentation_method1 Coverage Results" MODIFIED="1637418439998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week3" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$forword_segmentation_method2.coverage" NAME="forword_segmentation_method2 Coverage Results" MODIFIED="1637420728677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week3" />
     <SUITE FILE_PATH="coverage/badouai_tujiban$avepool_replicate.coverage" NAME="avepool_replicate Coverage Results" MODIFIED="1633274463228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
-    <SUITE FILE_PATH="coverage/badouai_tujiban$RNN_replicate.coverage" NAME="RNN_replicate Coverage Results" MODIFIED="1633706426914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$linear_replicate.coverage" NAME="linear_replicate Coverage Results" MODIFIED="1633709428205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$RNN_replicate.coverage" NAME="RNN_replicate Coverage Results" MODIFIED="1633708896159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$sentence_correction.coverage" NAME="sentence_correction Coverage Results" MODIFIED="1638027264333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week6" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$BP_nn.coverage" NAME="BP_nn Coverage Results" MODIFIED="1634561411160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
     <SUITE FILE_PATH="coverage/badouai_tujiban$work.coverage" NAME="work Coverage Results" MODIFIED="1633273781751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$cross_entropy_replicate.coverage" NAME="cross_entropy_replicate Coverage Results" MODIFIED="1633878369588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week1" />
+    <SUITE FILE_PATH="coverage/badouai_tujiban$ngram_language_model.coverage" NAME="ngram_language_model Coverage Results" MODIFIED="1638026563222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/91 李安榜 福建/week6" />
   </component>
 </project>

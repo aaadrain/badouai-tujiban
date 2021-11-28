@@ -12,21 +12,22 @@
   
 
 
-### 2. 主要是使用 **numpy** 复现linear与RNN
-    - linear
-      ```
+### 2. 主要是使用 **numpy** 复现linear与RNN   
+
+ - linear
+      ```math
       y = x·A.T + b
       ```
-        - 学习了线性相乘的计算方法 X*A.T，其实权重乘input的转置
-    - RNN
+     - 学习了线性相乘的计算方法 X*A.T，其实权重乘input的转置
+ - RNN
       ```
        h_t = tanh(W_ih·x_t + b_ih + W_hh·h_(t-1) + b_hh)
       ```
-        - 已知当输入是多维多列的数组
-        - 有两个权重矩阵 一个时候 *W* 另一个是 *U* 在公式中是*i*
-        - 是一个递归操作
-        - 下一次的输入ht是这一次的h_next   每一次的h的输入是上一次的输出状态，再加上新的x
-        ```       
+     - 已知当输入是多维多列的数组
+     - 有两个权重矩阵 一个时候 *W* 另一个是 *U* 在公式中是*i*
+     - 是一个递归操作
+     - 下一次的输入ht是这一次的h_next   每一次的h的输入是上一次的输出状态，再加上新的x
+      ```python    
         h_t = np.zeros((self.hidden_size)) # 一开始是默认为零的初始权重
         output = []
         for xi in x:
