@@ -208,6 +208,7 @@
       <workItem from="1637843217906" duration="599000" />
       <workItem from="1637931997892" duration="1819000" />
       <workItem from="1638002616573" duration="13023000" />
+      <workItem from="1638067025682" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="add readme">
       <created>1632573853821</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633879504767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add cross_entropy_replicate.py 复现交叉熵计算">
+      <created>1638067307195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638067307195</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
